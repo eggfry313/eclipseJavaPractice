@@ -12,7 +12,7 @@ public class SCV extends GroundUnit implements Repairable{
 			while(u.hp != u.max_hp) {
 				u.hp++;
 			}
-			System.out.println(u.toString()+"의 수리가 끝났습니다.");
+			System.out.println(r.toString()+"의 수리가 끝났습니다.");
 		}
 	}
 }
